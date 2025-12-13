@@ -1,0 +1,147 @@
+<scheme name="Cleanse" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2026-09-05</property>
+  </metaInfo>
+  <colors>
+    <!-- Gutter and UI highlights -->
+    <option name="GUTTER_BACKGROUND" value="15181E" />
+    <option name="LINE_NUMBERS_COLOR" value="4A5568" />
+    <option name="SELECTION_BACKGROUND" value="2D3748" />
+    <option name="CARET_ROW_COLOR" value="1A1D24" />
+  </colors>
+  <attributes>
+    <!-- Base Editor Canvas (Deep Slate Background) -->
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="E2E8F0" />
+        <option name="BACKGROUND" value="111318" />
+      </value>
+    </option>
+
+    <!-- Background Cleared (Removes inherited Darcula template block tint) -->
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value />
+    </option>
+    <option name="TEMPLATE_LANGUAGE_COLOR">
+      <value />
+    </option>
+
+    <!-- PHP -->
+    <option name="PHP_TAG">
+      <value>
+        <option name="FOREGROUND" value="A01C1C" /> <!-- Dark Red for <?php and ?> -->
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PHP_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="D9531E" /> <!-- Burnt Orange for '?' and operators -->
+      </value>
+    </option>
+    <option name="PHP_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="8B0000" /> <!-- Dark Red for control structures -->
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PHP_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="50FA7B" /> <!-- Mint Green -->
+      </value>
+    </option>
+    <option name="PHP_STRING">
+      <value>
+        <option name="FOREGROUND" value="F1C40F" /> <!-- Warm Amber -->
+      </value>
+    </option>
+
+    <!-- HTML -->
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="00E5FF" /> <!-- Vibrant Cyan -->
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="B388FF" /> <!-- Soft Violet -->
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="FFB74D" /> <!-- Soft Yellow-Orange -->
+      </value>
+    </option>
+
+    <!-- XML (.icls Files) -->
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="00E5FF" /> <!-- Vibrant Cyan -->
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="B388FF" /> <!-- Soft Violet -->
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="FFB74D" /> <!-- Soft Yellow-Orange -->
+      </value>
+    </option>
+    <option name="XML_PROLOG_RESPONSE">
+      <value>
+        <option name="FOREGROUND" value="E2E8F0" />
+      </value>
+    </option>
+
+    <!-- CSS (Ocean Blue Palette) -->
+    <option name="CSS.CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="00A3E0" /> <!-- Ocean Blue -->
+      </value>
+    </option>
+    <option name="CSS.PROPERTY_NAME">
+      <value>
+        <option name="FOREGROUND" value="0077BE" /> <!-- Deep Ocean Blue -->
+      </value>
+    </option>
+    <option name="CSS.PROPERTY_VALUE">
+      <value>
+        <option name="FOREGROUND" value="4DD0E1" /> <!-- Soft Sea Blue -->
+      </value>
+    </option>
+    <option name="CSS.IDENT">
+      <value>
+        <option name="FOREGROUND" value="00B4D8" /> <!-- Turquoise -->
+      </value>
+    </option>
+
+    <!-- JavaScript (Orange & Yellow Palette) -->
+    <option name="JS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="FF8C00" /> <!-- Deep Orange -->
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="FFD700" /> <!-- Bright Yellow -->
+      </value>
+    </option>
+    <option name="JS.STRING">
+      <value>
+        <option name="FOREGROUND" value="FFA500" /> <!-- Warm Orange String -->
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="FFE082" /> <!-- Pastel Yellow Variable -->
+      </value>
+    </option>
+    <option name="JS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F39C12" /> <!-- Amber Yellow -->
+      </value>
+    </option>
+  </attributes>
+</scheme>
