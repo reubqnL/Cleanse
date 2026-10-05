@@ -12,14 +12,16 @@
 
 ## Features
 
-* **Deep Slate Canvas:** Dark Slate background (`#111318`) paired with light grey text (`#E2E8F0`) to lower visual fatigue.
-* **Cleared Template Noise:** Neutralized background tints for injected language fragments and template blocks, eliminating distracting background boxes inside code.
-* **Language-Specific Color Signatures:**
+- **Deep Slate Canvas:** Dark Slate background (`#111318`) paired with light grey text (`#E2E8F0`) to lower visual fatigue.
+- **Cleared Template Noise:** Neutralized background tints for injected language fragments and template blocks, eliminating distracting background boxes inside code.
+- **Language-Specific Color Signatures:**
 
-  * **PHP:** Dark Red keywords and tags, Burnt Orange operators, Mint Green variables, and Warm Amber strings.
-  * **JavaScript:** Orange and Gold palette for high visual distinction between keywords, variables, and function calls.
-  * **CSS:** Ocean Blue spectrum separating class selectors, properties, identifiers, and values.
-  * **HTML / XML:** Cyan tag names with Soft Violet attribute names and Amber values.
+  - **PHP:** Dark Red keywords and tags, Burnt Orange operators, Mint Green variables, and Warm Amber strings.
+  - **JavaScript:** Orange and Gold palette for high visual distinction between keywords, variables, and function calls.
+  - **Python:** Dark Red keywords, Vibrant Cyan class definitions, Bright Yellow functions, and Warm Amber strings.
+  - **SQL:** Dark Red keywords, Vibrant Cyan table names, and Mint Green column names.
+  - **CSS:** Ocean Blue spectrum separating class selectors, properties, identifiers, and values.
+  - **HTML / XML:** Cyan tag names with Soft Violet attribute names and Amber values.
 
 ---
 
@@ -35,6 +37,11 @@
 | **JavaScript** | Keywords        | `#FF8C00`             | Deep Orange             |
 | **JavaScript** | Function Calls  | `#FFD700`             | Bright Yellow           |
 | **JavaScript** | Variables       | `#FFE082`             | Pastel Yellow           |
+| **Python**     | Class Names     | `#00E5FF`             | Vibrant Cyan            |
+| **Python**     | Functions       | `#FFD700`             | Bright Yellow           |
+| **Python**     | Keywords        | `#8B0000`             | Dark Red                |
+| **SQL**        | Tables          | `#00E5FF`             | Vibrant Cyan            |
+| **SQL**        | Columns         | `#50FA7B`             | Mint Green              |
 | **HTML / XML** | Tag Names       | `#00E5FF`             | Vibrant Cyan            |
 | **HTML / XML** | Attributes      | `#B388FF`             | Soft Violet             |
 | **CSS**        | Class Names     | `#00A3E0`             | Ocean Blue              |
@@ -48,7 +55,7 @@
 2. Open your JetBrains IDE.
 3. Open Settings/Preferences (`Ctrl + Alt + S` on Windows/Linux, `Cmd + ,` on macOS).
 4. Go to **Editor** > **Color Scheme**.
-5. Click the **Gear Icon** (⚙️) next to the scheme selector dropdown.
+5. Click the **Gear Icon** (⚙️️) next to the scheme selector dropdown.
 6. Select **Import Scheme...** and choose your `Cleanse.icls` file.
 7. Click **Apply** and **OK**.
 
@@ -58,10 +65,10 @@
 
 Tested and compatible with JetBrains IDEs:
 
-* PhpStorm
-* WebStorm
-* IntelliJ IDEA
-* PyCharm
-* RubyMine
-* GoLand
-* CLion
+- PhpStorm
+- WebStorm
+- IntelliJ IDEA
+- PyCharm
+- RubyMine
+- GoLand
+- CLion

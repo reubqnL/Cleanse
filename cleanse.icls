@@ -143,5 +143,84 @@
         <option name="FOREGROUND" value="F39C12" /> <!-- Amber Yellow -->
       </value>
     </option>
+
+    <!-- Python -->
+    <option name="PY.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="8B0000" /> <!-- Dark Red (matches PHP keywords) -->
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="FFD700" /> <!-- Bright Yellow (matches JS functions) -->
+      </value>
+    </option>
+    <option name="PY.CLASS_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="00E5FF" /> <!-- Vibrant Cyan (matches HTML tags) -->
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.STRING.U">
+      <value>
+        <option name="FOREGROUND" value="F1C40F" /> <!-- Warm Amber (matches PHP strings) -->
+      </value>
+    </option>
+    <option name="PY.STRING">
+      <value>
+        <option name="FOREGROUND" value="F1C40F" /> <!-- Warm Amber -->
+      </value>
+    </option>
+    <option name="PY.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="4A5568" /> <!-- Slate Gray (matches line numbers) -->
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F39C12" /> <!-- Amber Yellow (matches JS numbers) -->
+      </value>
+    </option>
+    <option name="PY.PREDEFINED_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="B388FF" /> <!-- Soft Violet (matches attributes) -->
+      </value>
+    </option>
+
+    <!-- SQL -->
+    <option name="SQL.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="8B0000" /> <!-- Dark Red (matches keywords) -->
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SQL.STRING">
+      <value>
+        <option name="FOREGROUND" value="F1C40F" /> <!-- Warm Amber (matches strings) -->
+      </value>
+    </option>
+    <option name="SQL.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F39C12" /> <!-- Amber Yellow (matches numbers) -->
+      </value>
+    </option>
+    <option name="SQL.IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="E2E8F0" /> <!-- Base Text Color -->
+      </value>
+    </option>
+    <option name="SQL.TABLE">
+      <value>
+        <option name="FOREGROUND" value="00E5FF" /> <!-- Vibrant Cyan (matches tags/classes) -->
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SQL.COLUMN">
+      <value>
+        <option name="FOREGROUND" value="50FA7B" /> <!-- Mint Green (matches variables) -->
+      </value>
+    </option>
   </attributes>
 </scheme>
